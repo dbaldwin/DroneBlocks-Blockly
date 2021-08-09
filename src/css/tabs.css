@@ -1,0 +1,58 @@
+#mission-tabs::-webkit-scrollbar {
+    height: 10px;
+}
+  
+#mission-tabs::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background: #fafafa;
+}
+  
+/* Handle */
+#mission-tabs::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #c1c1c1;
+}
+
+/* hover effect for scrollbar thumb */
+#mission-tabs::-webkit-scrollbar-thumb:hover {
+    background-color: teal;
+}
+
+#mission-tabs {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-left: 0;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+    width: 92%
+}
+  
+.tab-list-item {
+    background-color: #eeeeee;
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+    background-color: rgb(199, 199, 199);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #c0c0c0;
+}
+
+#add-new-tab {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    float: left;
+}
+
+.close-tab {
+    font-weight: bold;
+    font-size: 10px;
+    color: #4e4d4d;
+}
